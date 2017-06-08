@@ -36,11 +36,12 @@ $(function() {
 	};
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
+
 	
 });
 
 $(window).load(function() {
-
+	alert("GCCCC!");
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 
