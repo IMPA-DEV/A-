@@ -41,7 +41,6 @@ $(function() {
 });
 
 $(window).load(function() {
-	alert("GCCCC!");
 	$(".loader_inner").fadeOut();
 	$(".loader").delay(400).fadeOut("slow");
 
